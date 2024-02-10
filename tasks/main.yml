@@ -22,7 +22,7 @@
 - name: Create app container
   docker_container:
     name: "{{ application_name }}-app"
-    image: "ngosang/amule:2.3.3-16"
+    image: "ngosang/amule:2.3.3-17"
     restart_policy: "always"
     pull: true
     log_driver: "loki"
